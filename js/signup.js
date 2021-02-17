@@ -25,7 +25,6 @@ function registration() {
    }
 
    if (!document.getElementById("check1").checked || !document.getElementById("check2").checked) {
-      alert("Please Make Sure To Check The Boxes!")
       for (let i = 0; i < textBoxes.length; i++) {
          if (textBoxes[i].value == "" || textBoxes[i].value.split(" ").join("") == "") {
             textBoxes[i].style.backgroundColor = "#ff4c4c";
@@ -42,5 +41,6 @@ function registration() {
             textBoxes[i].style.backgroundColor = null;
          }
       }
+      alert("Please Make Sure To Check The Boxes!")
    }
 }
