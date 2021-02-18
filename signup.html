@@ -2,28 +2,26 @@
 <html lang="en">
 <head>
     <title>Sign Up Form</title>
-    <script src="js/signup.js"></script>
     <link rel="stylesheet" href="css/signup.css">
+    <script defer src="js/signup.js"></script>
 </head>
     <body>
         
         <div class="sign-up-form">
             <img src="img/user-icon.png">
             <h1>ProtoHacks Sign Up</h1>
-            <form>
-                <input type="text" id="name" class="input-box" placeholder="Your Name">
-                <input type="text" id="lastname" class="input-box" placeholder="Your Last Name">
-                <input type="email" id="email" class="input-box" placeholder="Your Email">
-                <input type="number" id="age" class="input-box" placeholder="Your Age">
-                <input type="number" id="grade" class="input-box" placeholder="Your Grade">
-                <input type="text" id="school" class="input-box" placeholder="Your School">
+            <input type="text" id="name" class="input-box" placeholder="Your Name">
+            <input type="text" id="lastname" class="input-box" placeholder="Your Last Name">
+            <input type="email" id="email" class="input-box" placeholder="Your Email">
+            <input type="number" id="age" class="input-box" placeholder="Your Age">
+            <input type="number" id="grade" class="input-box" placeholder="Your Grade">
+            <input type="text" id="school" class="input-box" placeholder="Your School">
                 <!-- <input id="password" type="password" class="input-box" placeholder="Your Password">
                 <input id="password2" type="password" class="input-box" placeholder="Re-Enter Password"> -->
-                <p><span><input type="checkbox" id="check1"></span><a href="lib/TOS.pdf" target="_">I agree to the Terms of Service</a></p> <!-- Make ToS download on click -->
-                <p><span><input type="checkbox" id="check2"></span><a href="lib/Injury_waiver.pdf" target="_">I have read the Disclaimer Form</a></p>
-                <button type="button" id="signUp" class="signup-btn" onclick="registration()">Sign Up</button>
+            <p><span><input type="checkbox" id="check1"></span><a href="lib/TOS.pdf" target="_">I agree to the Terms of Service</a></p> <!-- Make ToS download on click -->
+            <p><span><input type="checkbox" id="check2"></span><a href="lib/Injury_waiver.pdf" target="_">Please Print and Sign the Disclaimer Form</a></p>
+            <button type="button" id="signUp" class="signup-btn" onclick="registration()">Sign Up</button>
                 <!--<p>Already Registered? <a href="#">Sign in</a></p>-->
-            </form>
         </div>
     </body>
 </html>
